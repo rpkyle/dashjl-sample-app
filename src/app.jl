@@ -1,6 +1,6 @@
 using Dash, DashHtmlComponents, DashCoreComponents
 
-app = dash()
+app = dash(; url_base_pathname = "/dashjl-sample-app/")
 
 app.layout = html_div() do
     html_h1("Hello Dash"),
